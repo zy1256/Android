@@ -1,0 +1,5 @@
+[
+	{id:"aaa",name:"±è°æÈ£",address:"°æ±âµµ¹Î",tel:{home:"1111",office:"2222"},age:35},
+	{id:"bbb",name:"±è°æ¼ö",address:"°­¿øµµ¹Î",tel:{home:"4545",office:"1212"},age:34},
+	{id:"ccc",name:"±è°æ¹Ì",address:"ÃæÃ»µµ¹Î",tel:{home:"2323",office:"8888"},age:38}
+]

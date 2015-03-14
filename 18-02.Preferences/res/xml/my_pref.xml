@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="기본설정" >
+        <SwitchPreference
+            android:key="sw1"
+            android:switchTextOn="ON"
+            android:switchTextOff="OFF"
+            android:summary="마음을켜세요"
+            android:title="마음"
+            />
+        <CheckBoxPreference
+            android:key="check1"
+            android:summary="체크상태를 변경합니다."
+            android:title="체크박스환경설정" />
+        <RingtonePreference
+            android:key="myring"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="벨소리를 선택합니다."
+            android:title="벨소리환경설정" />
+           
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="상세화면" >
+        
+        <PreferenceScreen
+            android:summary="별도페이지에상세설정이있습니다."
+            android:title="상세화면" >
+            <CheckBoxPreference
+                android:title="상세체크박스"
+                android:key="check2"
+                android:summaryOn="체크상태[체크됨]"
+                android:summaryOff="체크상태[안체크됨]"
+                />
+        </PreferenceScreen>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="추가설정" >
+       
+        <EditTextPreference 
+            android:title="이름입력"
+            android:key="name"
+            android:summary="클릭후당신의이름을입력하세요"
+            android:dialogTitle="이름"
+            android:dialogMessage="이름을입력하세요"
+            android:dialogIcon="@android:drawable/ic_menu_camera"
+            />
+           
+    </PreferenceCategory>
+    
+</PreferenceScreen>

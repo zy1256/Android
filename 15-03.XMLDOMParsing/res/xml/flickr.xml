@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+      xmlns:georss="http://www.georss.org/georss"
+      xmlns:woe="http://where.yahooapis.com/v1/schema.rng"
+      xmlns:flickr="urn:flickr:user"
+      xmlns:media="http://search.yahoo.com/mrss/">
+	  <title>raul_lg의 업로드, 지역 데이터</title>
+	  <link rel="self" href="http://api.flickr.com/services/feeds/geo/?id=31911236@N07&amp;lang=ko-kr" />
+	  <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/raul_lg/"/>
+	  <entry>
+		    <title>T T T</title>
+		    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/raul_lg/8021260242/"/>
+		    <id>tag:flickr.com,2005:/photo/8021260242</id>
+		    <flickr:date_taken>2012-09-24T20:12:23-08:00</flickr:date_taken>
+		    <dc:date.Taken>2012-09-24T20:12:23-08:00</dc:date.Taken>
+		    <link rel="enclosure" type="image/jpeg" 
+	          href="http://farm9.staticflickr.com/8438/8021260242_b9124802d4_b.jpg" />
+	  </entry>
+	  <entry>
+		    <title>scrambled</title>
+		    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/raul_lg/7178567716/"/>
+		    <id>tag:flickr.com,2005:/photo/7178567716</id>
+		    <published>2012-05-11T21:22:21Z</published>
+		    <updated>2012-05-11T21:22:21Z</updated>
+		    <flickr:date_taken>2012-04-25T20:18:27-08:00</flickr:date_taken>
+		    <dc:date.Taken>2012-04-25T20:18:27-08:00</dc:date.Taken>
+	  </entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+	  <entry></entry>
+
+
+</feed>

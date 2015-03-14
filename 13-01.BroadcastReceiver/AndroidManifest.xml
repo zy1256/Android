@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itwill.receiver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+    
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BoradcastReceiver1" >
+            <intent-filter>
+                <action android:name="com.itwill.receiver.RECEIVER1" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastReceiver2"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.itwill.receiver.RECEIVER2" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastReceiver3_1"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="1" >
+                <action android:name="com.itwill.receiver.RECEIVER3" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastReceiver3_2"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="2" >
+                <action android:name="com.itwill.receiver.RECEIVER3" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".PhoneStatusChangeReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter >
+        		<action android:name="android.intent.action.PHONE_STATE"/>        
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

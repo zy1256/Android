@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloContentsProviders</string>
+    <string name="app_name">Contents Providers</string>
+	<string name="incomming">수신</string>
+	<string name="outgoing">발신</string>
+	<string name="calllog">통화</string>
+	<string name="contacts">통화 기록</string>
+	<string name="bookmarks">연락처 목록</string>
+	<string name="media">미디어</string>
+</resources>

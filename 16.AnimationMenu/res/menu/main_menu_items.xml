@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itwill.animation.MainActivity" >
+
+    <item
+        android:id="@+id/menu_animation"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="animation">
+        <menu>
+            <item
+                android:icon="@android:drawable/btn_star"
+                android:id="@+id/menu_rotate"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="rotate"/>
+            <item
+                android:id="@+id/menu_alpha"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="alpha"/>
+            <item
+                android:id="@+id/menu_scale"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="scale"/>
+            <item
+                android:id="@+id/menu_transition"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="transition"/>
+             <item
+                android:id="@+id/menu_set"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="set"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">03.Widget</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="text_title">
+	    텍스트뷰데모
+	</string>
+	<string name="text_content">2.전화번호:01054844731\n3.이메일:guard@naver.com\n4.홈페이지:http://www.naver.com</string>
+</resources>

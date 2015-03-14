@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itwill.location.MainActivity" >
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:id="@+id/locationTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCATION INFO" />
+    
+	<fragment
+	    android:layout_below="@id/locationTV" 
+	    android:id="@+id/mapFragment"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:name="com.google.android.gms.maps.MapFragment"
+	    />
+    
+    
+</RelativeLayout>
